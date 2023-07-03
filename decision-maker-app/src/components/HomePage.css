@@ -1,0 +1,18 @@
+/* src/components/HomePage.css */
+.home-page {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-page h1 {
+    color: #4CAF50;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}

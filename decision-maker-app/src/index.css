@@ -1,0 +1,42 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a simple and clean font for the whole app */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Add some spacing around the app */
+.container {
+  margin: 40px;
+}
+
+/* Style the category selection */
+.category-selection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+/* Style the option cards */
+.option-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Style the decision button */
+.decision-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+}
